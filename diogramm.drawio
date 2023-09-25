@@ -1,0 +1,120 @@
+<mxfile host="app.diagrams.net" modified="2023-09-25T13:04:02.896Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="WaXogmftDD_LBQW2S4zO" version="21.8.0" type="device">
+  <diagram name="Страница — 1" id="VTv2eJ64EowPpt-remeR">
+    <mxGraphModel dx="1600" dy="811" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="IeBEGXpacajPv1aQOTsr-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="IeBEGXpacajPv1aQOTsr-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="414" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IeBEGXpacajPv1aQOTsr-2" value="Start" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="354" y="30" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="IeBEGXpacajPv1aQOTsr-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="IeBEGXpacajPv1aQOTsr-6" target="IeBEGXpacajPv1aQOTsr-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IeBEGXpacajPv1aQOTsr-6" value="Объявление массива strinfg[] MyArray c заданным набором элементов" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="234" y="190" width="360" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="IeBEGXpacajPv1aQOTsr-7" value="Console.WriteLine вывод на текста &quot;Первичный массив&quot;&amp;nbsp;&lt;br&gt;Объявление цикла for для вывода всего массива" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="261" y="350" width="306" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="IeBEGXpacajPv1aQOTsr-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="IeBEGXpacajPv1aQOTsr-11" target="IeBEGXpacajPv1aQOTsr-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IeBEGXpacajPv1aQOTsr-11" value="Объявление переменной int count = 0&amp;nbsp;&lt;br&gt;Объявление переменной string z = &quot;&quot;&lt;br&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="261" y="700" width="306" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="IeBEGXpacajPv1aQOTsr-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="IeBEGXpacajPv1aQOTsr-12" target="IeBEGXpacajPv1aQOTsr-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="640" y="760" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="590" y="530" />
+              <mxPoint x="590" y="760" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IeBEGXpacajPv1aQOTsr-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="IeBEGXpacajPv1aQOTsr-12" target="IeBEGXpacajPv1aQOTsr-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IeBEGXpacajPv1aQOTsr-12" value="Объявление цикла for для вывода всего массива&lt;br&gt;&lt;p style=&quot;margin-bottom: 0.0001pt; font-size: 11px;&quot; class=&quot;MsoNormal&quot;&gt;for (int j = 0; j &amp;lt; MyArray.GetLength(0);&lt;br/&gt;j++)&lt;/p&gt;" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="291" y="490" width="246" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="IeBEGXpacajPv1aQOTsr-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="IeBEGXpacajPv1aQOTsr-14" target="IeBEGXpacajPv1aQOTsr-12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="260" y="530" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="271" y="630" />
+              <mxPoint x="271" y="530" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IeBEGXpacajPv1aQOTsr-14" value="&lt;p style=&quot;margin-bottom:0cm;margin-bottom:.0001pt&quot; class=&quot;MsoNormal&quot;&gt;Console.Write(MyArray[j] + &quot;,&lt;br/&gt;&quot;);&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="326" y="600" width="176" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IeBEGXpacajPv1aQOTsr-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="IeBEGXpacajPv1aQOTsr-19">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="413.9999999999998" y="1010" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IeBEGXpacajPv1aQOTsr-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="IeBEGXpacajPv1aQOTsr-19" target="IeBEGXpacajPv1aQOTsr-45">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="780" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IeBEGXpacajPv1aQOTsr-19" value="Запускаем цикл for что бы посчитать&amp;nbsp; количество нужным мак слов&lt;br&gt;for (int i = 0; i &amp;lt; MyArray.Length; i++) с проверкой условием" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="291" y="870" width="246" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="IeBEGXpacajPv1aQOTsr-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="IeBEGXpacajPv1aQOTsr-22" target="IeBEGXpacajPv1aQOTsr-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IeBEGXpacajPv1aQOTsr-26" value="Yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;" vertex="1" connectable="0" parent="IeBEGXpacajPv1aQOTsr-25">
+          <mxGeometry x="-0.049" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IeBEGXpacajPv1aQOTsr-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="IeBEGXpacajPv1aQOTsr-22">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="150" y="1075" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="197" y="1075" />
+              <mxPoint x="197" y="1080" />
+              <mxPoint x="150" y="1080" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IeBEGXpacajPv1aQOTsr-28" value="NO" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;" vertex="1" connectable="0" parent="IeBEGXpacajPv1aQOTsr-27">
+          <mxGeometry x="-0.1311" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IeBEGXpacajPv1aQOTsr-22" value="&lt;p style=&quot;margin-bottom: 0.0001pt;&quot; class=&quot;MsoNormal&quot;&gt;if (MyArray[i].Length &amp;lt;= 3 &amp;amp;&amp;amp; MyArray[i]&lt;br&gt;!= &quot;,&quot;)&lt;br&gt;&lt;br&gt;&lt;/p&gt;" style="rhombus;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="243" y="1010" width="341" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="IeBEGXpacajPv1aQOTsr-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="IeBEGXpacajPv1aQOTsr-24" target="IeBEGXpacajPv1aQOTsr-19">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="140" y="920" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="140" y="1300" />
+              <mxPoint x="140" y="910" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IeBEGXpacajPv1aQOTsr-24" value="&lt;p style=&quot;border-color: var(--border-color); margin-bottom: 0.0001pt;&quot; class=&quot;MsoNormal&quot;&gt;z = z + MyArray[i] + &quot;&lt;span style=&quot;border-color: var(--border-color); background-color: initial;&quot;&gt;&quot;;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin-bottom: 0.0001pt;&quot; class=&quot;MsoNormal&quot;&gt;&lt;span style=&quot;border-color: var(--border-color); line-height: 12.84px; font-family: Consolas;&quot; lang=&quot;EN-US&quot;&gt;count++;&lt;/span&gt;&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="326" y="1270" width="176" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IeBEGXpacajPv1aQOTsr-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="IeBEGXpacajPv1aQOTsr-45" target="IeBEGXpacajPv1aQOTsr-46">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IeBEGXpacajPv1aQOTsr-45" value="&lt;p style=&quot;margin-bottom:0cm;margin-bottom:.0001pt&quot; class=&quot;MsoNormal&quot;&gt;System.Console.WriteLine(&quot;Результат:&lt;br&gt;&amp;nbsp;&quot;);&lt;/p&gt;&lt;p style=&quot;margin-bottom:0cm;margin-bottom:.0001pt&quot; class=&quot;MsoNormal&quot;&gt;&lt;span style=&quot;mso-bidi-font-size:10.5pt;line-height:107%;font-family:Consolas;&lt;br/&gt;mso-fareast-font-family:&amp;quot;Times New Roman&amp;quot;;mso-bidi-font-family:&amp;quot;Times New Roman&amp;quot;;&lt;br/&gt;mso-ansi-language:EN-US;mso-fareast-language:RU&quot; lang=&quot;EN-US&quot;&gt;string[] Answer = z.Split(&#39;,&#39;);&lt;/span&gt;&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="701" y="1035" width="213" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="IeBEGXpacajPv1aQOTsr-46" value="&lt;p style=&quot;margin-bottom:0cm;margin-bottom:.0001pt&quot; class=&quot;MsoNormal&quot;&gt;Console.WriteLine(String.Join(&quot;,&quot;,&lt;br/&gt;Answer));&lt;/p&gt;" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="690" y="1169" width="235" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
