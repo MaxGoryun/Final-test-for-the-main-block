@@ -1,33 +1,23 @@
-﻿Console.WriteLine("Enter array length: ");
-int LenArr = Convert.ToInt32(Console.ReadLine());
+﻿
+string[] MyArray = {"Рано", "утром",  "дед", "с", "внуком", "отправились", "на", "рыбалку.", "Взяли", "с", "собой", "удочек,", "ведёрко", "да", "червей", "наловили.", 
+"Сели", "в", "тени", "деревьев", "и", "закинули", "удочки.", "Красные", "поплавки", "весело", "прыгали", "в", "прозрачной", "воде.", "Славный", "вышел", "улов!"};
 
-string[] MyArray = new string[LenArr];
-
-for (int i = 0; i < MyArray.Length; i++)
-{
-    Console.Write($"Enter the word number {i}: ");
-    MyArray[i] = Console.ReadLine()!;
-}
-
+System.Console.WriteLine("Начальный массив: ");
 for (int j = 0; j < MyArray.GetLength(0); j++)
 {
     Console.Write(MyArray[j] + ", ");
 }
+
 System.Console.WriteLine();
 
-string[] newArray = new string[new Random().Next(0, 4)];
-
-for (int y = 0; y < newArray.Length; y++)
+string x = "";
+System.Console.WriteLine("Резуьтат:  ");
+for (int i = 0; i < MyArray.Length; i++)
 {
-    int x = new Random().Next(0, LenArr - 1);
-    for (int i = 0; i < MyArray.Length; i++)
+    if (MyArray[i].Length <= 3)
     {
-        if (newArray[y] == MyArray[i])
-        {
-            continue;
-        }
+        x = x + MyArray[i]+ ", ";
     }
-    newArray[y] = MyArray[x];
-    Console.Write(newArray[y] + ", ");
-} 
+}
+Console.WriteLine(x);
 
